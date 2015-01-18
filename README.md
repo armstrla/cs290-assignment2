@@ -65,7 +65,7 @@
        <input type="submit">
     </form>
       <div class="outer-content">
-       <div class="innter-content">
+       <div class="inner-content">
         Div content here.
    </div>
    <a>
