@@ -1,3 +1,18 @@
+table, th, td {
+   border: 1px solid black; text-align: center;
+} 
+
+th {
+   font-weight: bold; background-color: white;
+}
+
+td:first-child {
+   font-style: italic;
+}
+
+tr:nth-child(2) {
+   background-color: LightGreen;
+}
 
 tr:nth-child(3) {
    background-color: LightBlue;
@@ -33,20 +48,22 @@ dt:hover + dd {
 
 .outer-content {
    background-color: pink; position: fixed; text-align: center; 
-   width: 75%; margin-top: 20px; margin-bottom: 10px;
+   height: 30px; width: 75%; margin-top: 20px; padding-top: 5px;
 }
 
 .inner-content {
-   background-color: blue; text-align: center; position: relative;
+   background-color: blue; text-align: center; margin-left: auto; margin-right: auto;
    width: 75%; height: 75%;
 }
 
 p {
-   background-color: white;
+   background-color: white; margin-top: 20px;
 }
 
 img {
-   background-color: white; height: 100px; 
+   background-color: white; margin-top: 10px; height: 100px; 
    width: 125px; float: left;
 }
+
+
 
